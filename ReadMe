@@ -1,0 +1,32 @@
+                                                                README
+
+- This task is coded in Jupyter Notebooks.
+
+- Steps for installing Jupyter Notebooks
+  - Install Anaconda
+  - From terminal, go to Anacondas location and give the following command
+
+         $jupyter notebook
+
+    This command starts the local server.
+  -A window opens in your default browser and go through the introduction tutorial.
+
+- Steps for installing Spacy
+  - From terminal, type the following
+
+      $conda config --add channels conda-forge
+      $conda install spacy
+  - Now you have to load the language model by giving the following command
+ 
+      $python -m spacy download en
+
+- Steps to run the program
+  - unzip the file to the desired location
+  - open terminal and type
+    
+      $python Theme_Extractor.py
+
+  - Enter a sentence upon prompt.
+
+- Alternatively, click the Theme_Extractor.html to view the static content
+  of the task in the browser.
