@@ -12,3 +12,4 @@
 (i)  CMU's TurboParser      
 (ii) Stanford Dependency Parser      
 (iii)NLTK's Projective Dependency Parser etc.
+* The ReadMe text file contains the instructions to run the script.
